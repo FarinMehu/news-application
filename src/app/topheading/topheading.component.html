@@ -1,0 +1,19 @@
+<!-- <p>topheading works!</p> -->
+
+<!-- <div *ngFor='let d of topheadingDisplay'>
+    {{d.title}}
+</div> -->
+<div class="container mt-5">
+    <h4>Top Heading</h4>
+    <div class="row">
+        <div *ngFor='let d of topheadingDisplay' class="col-lg-3 mt-3 mb-3">
+            <div class="box">
+                <img src="{{d.urlToImage}}" width="100%">
+                <h5 class="mt-3 mb-3">{{d.title}}</h5>
+                <!-- <p>{{d.content}}</p> -->
+                <a class="btn btn-dark btn-sm" href="{{d.url}}" target="_blank">Read more</a>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: #f0fff0; */
+}
+.box{
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid lightslategray;
+    border-radius: 6px;
+    height: 400px;
+}
+.box img{
+    border-radius: 6px;
+}
+.box h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.box a{
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
